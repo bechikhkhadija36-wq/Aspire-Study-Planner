@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="controles.js"></script>
+    <title>Aspire</title>
+  </head>
+  <body>
+    <form action="result.html" method="get">
+      <h6>Student Information</h6>
+      <div>
+        <label for="yn">Your Name : </label>
+        <input type="text" name="yn" id="yn" placeholder="Enter Name" />
+      </div>
+      <div>
+        <label>Your Level : </label>
+        <input type="radio" name="lev" id="hi" /><label for="hi"
+          >High School</label
+        >
+        <input type="radio" name="lev" id="un" /><label for="un"
+          >University</label
+        >
+      </div>
+      <div>
+        <label for="nb">Number of subjects : </label>
+        <input type="number" name="nb" id="nb" placeholder="Enter Number" />
+      </div>
+      <br />
+      <hr />
+      <br />
+      <button type="button" id="subg" onclick="generateSubjects()">
+        Generate Subjects
+      </button>
+      <div id="subjectsContainer"></div>
+      <br />
+      <hr />
+      <br />
+      <h6>Availability Section</h6>
+      <div>
+        <label>Which days can you study?</label>
+        <br />
+        <br />
+        <input type="checkbox" name="mon" id="mon" value="Monday" /><label
+          for="mon"
+          >Monday</label
+        >
+        <input type="checkbox" name="tue" id="tue" value="Tuesday" /><label
+          for="tue"
+          >Tuesday</label
+        >
+        <input type="checkbox" name="wed" id="wed" value="Wednesday" /><label
+          for="wed"
+          >Wednesday</label
+        >
+        <input type="checkbox" name="thu" id="thu" value="Thursday" /><label
+          for="thu"
+          >Thursday</label
+        >
+        <input type="checkbox" name="fri" id="fri" value="Friday" /><label
+          for="fri"
+          >Friday</label
+        >
+        <input type="checkbox" name="sat" id="sat" value="Saturday" /><label
+          for="sat"
+          >Saturday</label
+        >
+        <input type="checkbox" name="sun" id="sun" value="Sunday" /><label
+          for="sun"
+          >Sunday</label
+        >
+      </div>
+      <br />
+      <hr />
+      <br />
+      <div>
+        <label>When do you prefer studying?</label>
+        <br />
+        <br />
+        <input type="radio" name="time" id="mor" value="Morning" /><label
+          for="mor"
+          >Morning</label
+        >
+        <input type="radio" name="time" id="aft" value="Afternoon" /><label
+          for="aft"
+          >Afternoon</label
+        >
+        <input type="radio" name="time" id="eve" value="Evening" /><label
+          for="eve"
+          >Evening</label
+        >
+      </div>
+      <br />
+      <hr />
+      <br />
+      <div>
+        <label for="hours">How many hours can you study per day?</label>
+        <br />
+        <br />
+        <input type="number" name="hours" id="hours" />
+      </div>
+      <input type="submit" value="Generate My Plan" onclick="return verif()" />
+    </form>
+  </body>
+</html>
