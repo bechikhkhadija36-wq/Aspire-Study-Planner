@@ -2,7 +2,7 @@
 
 Aspire is a personalized study planner website that helps students organize their study time and create a better learning routine.
 
-## 🌟 Features
+## Features
 
 - Student information collection
 - Dynamic subject generation
@@ -10,16 +10,16 @@ Aspire is a personalized study planner website that helps students organize thei
 - Personalized study schedule
 - Study time organization based on availability
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 
-## 🎯 Project Goal
+## Project Goal
 
 This project was created to practice web development skills and build a useful tool that helps students manage their academic goals.
 
-## 👩‍💻 Author
+## Author
 
 Khadija
